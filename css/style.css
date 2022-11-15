@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER + DIV/a INTERNI */
+
+.debug header {
+    background-color: #add8e6;
+    min-height: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.debug .container-header {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    background-color: #daa520;
+}
+.debug header > div {
+    border: 1px dashed black;
+    padding: 2px;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.logo-01,
+.login {
+    flex: 25%;
+}
+.debug .link {
+    flex: 50%;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.login {
+    text-align: end;
+}
+
+/* FINE HEADER + DIV/a INTERNI */
+
+
+
+
+/* MAIN - SECTION */
+
+.debug .sec-01 {
+    height: 250px;
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.debug .blu {
+    width: 540px;
+    height: 200px;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+.sec-02,
+.sec-03,
+.sec-06 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.debug .blu-pink {
+    width: 800px;
+    border: 1px dashed black;
+    display: flex;
+    height: 250px;
+}
+.debug .blu-sec-2 {
+    background-color: #1e90ff;
+    width: 65%;
+}
+.debug .pink-sec-2 {
+    background-color: #ffc0cb;
+    width: 35%;
+}
+.sec-03,
+.sec-05 {
+    background-color: lightgray;
+}
+.sec-05 {
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.debug .green {
+    background-color: #228b22;
+    height: 500px;
+    width: 800px;
+    border: 1px dashed black;
+}
+.sec-06 {
+    background-color: black;
+}
+.blu-pink-06 {
+    width: 800px;
+    height: 290px;
+    display: flex;
+    padding-bottom: 16px;
+}
+.debug .blu-pink-06 > div {
+    border: 1px dashed white;
+}
+.debug .flex-1 {
+    flex: 1;
+    background-color: #20b2aa;
+}
+.debug .sect-pink {
+    flex: 2;
+    background-color: #f08080;
+}
+
+/* FINE MAIN + SECTION */
+
+
+
+hr {
+    border: 1px solid white;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.debug button {
+    border: 1px dashed black;
+    padding: 2px;
+    background-color: #ffb6c1;
+}
+.debug .container-final {
+    width: 800px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-top: 16px;
+}
+
+/* FINE FOOTER */
